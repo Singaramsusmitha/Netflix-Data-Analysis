@@ -1,1 +1,220 @@
+# 🎬 Netflix Data Analysis using Python
+
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-orange)
+![Seaborn](https://img.shields.io/badge/Seaborn-Statistical%20Plots-green)
+![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
+
+## 📌 Project Overview
+
+This project explores the **Netflix Titles Dataset** using **Python** to uncover meaningful insights about Netflix's content library. The analysis focuses on data cleaning, feature engineering, exploratory data analysis (EDA), visualization, and answering real-world business questions.
+
+The goal is to understand trends in Netflix content, including movies, TV shows, genres, countries, directors, ratings, and content growth over time.
+
+---
+
+## 📂 Dataset
+
+* **Dataset:** `netflix_titles.csv`
+* **Records:** ~8,800+
+* **Features:** 12+
+
+### Main Columns
+
+* show_id
+* type
+* title
+* director
+* cast
+* country
+* date_added
+* release_year
+* rating
+* duration
+* listed_in
+* description
+
+---
+
+## 🛠️ Technologies Used
+
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Jupyter Notebook
+
+---
+
+## 📋 Project Workflow
+
+### 1️⃣ Data Loading
+
+* Imported dataset
+* Explored rows and columns
+* Checked data types
+
+### 2️⃣ Data Cleaning
+
+* Removed duplicate records
+* Handled missing values
+* Fixed incorrect duration values
+* Converted date columns to datetime format
+
+### 3️⃣ Feature Engineering
+
+Created new columns:
+
+* Year Added
+* Month Added
+* Day Added
+
+---
+
+## 📊 Exploratory Data Analysis (EDA)
+
+Performed analysis on:
+
+* Movies vs TV Shows
+* Content Ratings
+* Top Countries
+* Top Directors
+* Top Actors
+* Movie Duration
+* TV Show Seasons
+* Release Year Distribution
+* Monthly Content Addition
+* Top Genres
+
+---
+
+## 💼 Business Questions Answered
+
+✔ Which type of content dominates Netflix?
+
+✔ Which countries produce the most Netflix content?
+
+✔ Which year had the highest number of titles added?
+
+✔ What are the most common content ratings?
+
+✔ Who are the top directors on Netflix?
+
+✔ Which genres are most popular?
+
+✔ Which actors appear most frequently?
+
+✔ What is the average movie duration?
+
+✔ Which are the longest movies available?
+
+✔ How many TV shows have 1, 2, 3... seasons?
+
+---
+
+## 📈 Key Insights
+
+* 🎥 Movies significantly outnumber TV Shows on Netflix.
+* 🌍 The United States contributes the largest amount of content.
+* 🎭 Drama, International Movies, and Comedy are among the most common genres.
+* ⭐ TV-MA is one of the most frequent content ratings.
+* ⏱️ Most movies have a duration between **80 and 120 minutes**.
+* 📺 Single-season TV Shows are the most common.
+* 📅 Netflix rapidly expanded its content library during the late 2010s.
+
+---
+
+## 📁 Project Structure
+
+```text
+Netflix-Data-Analysis/
+│
+├── Netflix_Data_Analysis.ipynb
+├── netflix_titles.csv
+├── README.md
+├── requirements.txt
+├── images/
+│   ├── movies_vs_tvshows.png
+│   ├── top_genres.png
+│   ├── top_countries.png
+│   ├── ratings.png
+│   ├── movie_duration.png
+│   └── yearly_content.png
+└── LICENSE
+```
+
+---
+
+## 🚀 How to Run
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/Netflix-Data-Analysis.git
+```
+
+2. Navigate to the project folder
+
+```bash
+cd Netflix-Data-Analysis
+```
+
+3. Install the required libraries
+
+```bash
+pip install pandas numpy matplotlib seaborn
+```
+
+4. Open the Jupyter Notebook
+
+```bash
+jupyter notebook
+```
+
+5. Run all notebook cells.
+
+---
+
+## 📸 Sample Visualizations
+
+* Movies vs TV Shows
+* Top 10 Genres
+* Top Countries
+* Content Ratings
+* Movie Duration Distribution
+* TV Show Seasons Distribution
+* Content Added Per Year
+
+---
+
+## 🎯 Learning Outcomes
+
+Through this project, I gained hands-on experience in:
+
+* Data Cleaning
+* Feature Engineering
+* Exploratory Data Analysis (EDA)
+* Data Visualization
+* Business Insight Generation
+* Working with Real-World Datasets
+* Python Data Analysis Libraries
+
+---
+
+## 📌 Future Enhancements
+
+* Build an interactive dashboard using Power BI or Tableau.
+* Perform sentiment analysis on content descriptions.
+* Develop a movie recommendation system.
+* Deploy the analysis as a web application using Streamlit.
+
+---
+
+## 👩‍💻 Author
+
+**Singaram Susmitha**
+
+If you found this project useful, consider giving it a ⭐ on GitHub!
 
